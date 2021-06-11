@@ -3,8 +3,14 @@ import Header from '../components/Header'
 
 export default function Home() {
   return (
-    <div>
+    <div className={ styles.container }>
       <Header></Header>
+      <div className={ styles.content }>
+        <div className={ styles.inner }>
+          <div className={ styles.sidebar }>sidebar</div>
+          <div className={ styles.main }>main</div>
+        </div>
+      </div>
     </div>
   )
 }
